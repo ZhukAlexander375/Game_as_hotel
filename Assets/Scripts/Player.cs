@@ -57,5 +57,5 @@ public class Player : MonoBehaviour
     private void SetRunAnimationActive(bool isActive)
     {
         _animator.SetBool(IsWalking, isActive);
-    }
+    }       
 }
